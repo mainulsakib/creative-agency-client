@@ -26,7 +26,7 @@ const Order = () => {
     }
     const handleSubmit = () => {
         const newCourse = { ...loggedInUser, course, price, image,description }
-        fetch('http://localhost:5000/addCourse', {
+        fetch('https://still-taiga-09404.herokuapp.com/addCourse', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(newCourse)

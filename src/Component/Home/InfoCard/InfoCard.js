@@ -8,7 +8,7 @@ const InfoCard = ({info}) => {
     const [loggedInUser,setLoggedInUser]=value1;
     const [admin,setAdmin]=useState(false)
   useEffect(() => {
-      fetch("http://localhost:5000/admin?email="+loggedInUser.email)
+      fetch("https://still-taiga-09404.herokuapp.com/admin?email="+loggedInUser.email)
       .then(res=>res.json())
       .then(data=>setAdmin(data))
   },[]) 

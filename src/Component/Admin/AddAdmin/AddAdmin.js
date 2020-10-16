@@ -17,7 +17,7 @@ const AddAdmin = () => {
      
         console.log(formData)
 
-        fetch('http://localhost:5000/addAdmin', {
+        fetch('https://still-taiga-09404.herokuapp.com/addAdmin', {
             method: 'POST',
             body: formData
         })

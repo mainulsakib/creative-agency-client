@@ -28,14 +28,7 @@ const AdminSidebar = () => {
         <FontAwesomeIcon icon={faShoppingCart} />
         <p>Order</p>
             </Link>  
-            <Link style={{textDecoration:'none',color:'black'}}  to='/customerService' className="d-flex  flex-row m-2 ">
-        <FontAwesomeIcon icon={faTaxi} />
-        <p>Service List </p>
-            </Link>   
-            <Link style={{textDecoration:'none',color:'black'}}  to='/customerReview' className="d-flex  flex-row  m-2">
-        <FontAwesomeIcon icon={faCommentAlt} />
-        <p>Review</p> 
-            </Link>     
+            
         </div>
         </div>
     );

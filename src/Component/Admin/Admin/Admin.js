@@ -6,7 +6,7 @@ import AdminSidebar from '../AdminSidebar/AdminSIdebar';
     const Admin = () => {
         const [allCourses,setAllCourses]=useState([])
         useEffect(() =>{
-            fetch ('http://localhost:5000/allCourses')
+            fetch ('https://still-taiga-09404.herokuapp.com/allCourses')
             .then(res=>res.json())
             .then(data=>setAllCourses(data))
         },[])

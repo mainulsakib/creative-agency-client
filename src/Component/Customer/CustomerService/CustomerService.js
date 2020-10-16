@@ -12,7 +12,7 @@ const CustomerService = () => {
   const [loggedInUser,setLoggedInUser]=value1;
   
   useEffect(() => {
-    fetch('http://localhost:5000/courses?email='+loggedInUser.email)
+    fetch('https://still-taiga-09404.herokuapp.com/courses?email='+loggedInUser.email)
     .then(res=>res.json())
   .then(data=>{setCourses(data)})
   },[])

@@ -19,7 +19,7 @@ const CustomerReview = () => {
         formData.append('review',info.review);
         console.log(formData)
 
-        fetch('http://localhost:5000/addComment', {
+        fetch('https://still-taiga-09404.herokuapp.com/addComment', {
             method: 'POST',
             body: formData
         })
