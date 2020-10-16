@@ -1,12 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .App {
   text-align: center;
 }
 
+body{
+  font-family: 'Poppins', sans-serif;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+.btn-main{
+  
+width: 170px;
+height: 45px;
+
+
+background: #111430;
+border-radius: 5px;
+
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
